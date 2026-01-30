@@ -22,7 +22,7 @@ module.exports = class Opstream extends streamx.Readable {
           cb(null)
           done()
         }
-
+        this.once('error', error)
         if (params.link) params.link = plink.normalize(params.link)
         op(params).catch(error).finally(close)
       }
