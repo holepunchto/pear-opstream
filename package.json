@@ -21,7 +21,7 @@
     "prettier-config-holepunch": "^2.0.0"
   },
   "dependencies": {
-    "pear-link": "^4.2.1",
+    "pear-link": "^5.0.0",
     "streamx": "^2.23.0"
   }
 }
