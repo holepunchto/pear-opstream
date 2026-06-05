@@ -23,5 +23,17 @@
   "dependencies": {
     "pear-link": "^5.0.0",
     "streamx": "^2.23.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/pear-opstream.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/holepunchto/pear-opstream/issues"
+  },
+  "homepage": "https://github.com/holepunchto/pear-opstream#readme"
 }
